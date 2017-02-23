@@ -48,6 +48,16 @@
                ReferencedContainer = "container:CarthageTest.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "05AFBF161E5F42A3000C284C"
+               BuildableName = "ZDTableViewBindingFrameworkTests.xctest"
+               BlueprintName = "ZDTableViewBindingFrameworkTests"
+               ReferencedContainer = "container:CarthageTest.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference

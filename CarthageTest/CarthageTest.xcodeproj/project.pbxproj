@@ -21,6 +21,38 @@
 		0590A8531E5DE696000CB46C /* ZDCellViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0590A84D1E5DE696000CB46C /* ZDCellViewModel.m */; };
 		0590A8541E5DE696000CB46C /* ZDSectionViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0590A84F1E5DE696000CB46C /* ZDSectionViewModel.m */; };
 		0590A8571E5DE983000CB46C /* ReactiveObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0590A8561E5DE983000CB46C /* ReactiveObjC.framework */; };
+		05AFBF181E5F42A3000C284C /* ZDTableViewBinding.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05AFBF0F1E5F42A2000C284C /* ZDTableViewBinding.framework */; };
+		05AFBF1F1E5F42A3000C284C /* ZDTableViewBindingFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 05AFBF1E1E5F42A3000C284C /* ZDTableViewBindingFrameworkTests.m */; };
+		05AFBF211E5F42A3000C284C /* ZDTableViewBindingFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 05AFBF111E5F42A2000C284C /* ZDTableViewBindingFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05AFBF241E5F42A3000C284C /* ZDTableViewBinding.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05AFBF0F1E5F42A2000C284C /* ZDTableViewBinding.framework */; };
+		05AFBF261E5F42A3000C284C /* ZDTableViewBinding.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 05AFBF0F1E5F42A2000C284C /* ZDTableViewBinding.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		05AFBF361E5F42F3000C284C /* UITableView+FDIndexPathHeightCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 05AFBF2F1E5F42F3000C284C /* UITableView+FDIndexPathHeightCache.m */; };
+		05AFBF371E5F42F3000C284C /* UITableView+FDKeyedHeightCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 05AFBF311E5F42F3000C284C /* UITableView+FDKeyedHeightCache.m */; };
+		05AFBF381E5F42F3000C284C /* UITableView+FDTemplateLayoutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 05AFBF331E5F42F3000C284C /* UITableView+FDTemplateLayoutCell.m */; };
+		05AFBF391E5F42F3000C284C /* UITableView+FDTemplateLayoutCellDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 05AFBF351E5F42F3000C284C /* UITableView+FDTemplateLayoutCellDebug.m */; };
+		05AFBF3A1E5F4321000C284C /* UITableView+FDIndexPathHeightCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 05AFBF2E1E5F42F3000C284C /* UITableView+FDIndexPathHeightCache.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		05AFBF3B1E5F4321000C284C /* UITableView+FDKeyedHeightCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 05AFBF301E5F42F3000C284C /* UITableView+FDKeyedHeightCache.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		05AFBF3C1E5F4321000C284C /* UITableView+FDTemplateLayoutCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 05AFBF321E5F42F3000C284C /* UITableView+FDTemplateLayoutCell.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		05AFBF3D1E5F4321000C284C /* UITableView+FDTemplateLayoutCellDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = 05AFBF341E5F42F3000C284C /* UITableView+FDTemplateLayoutCellDebug.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		05AFBF3E1E5F4321000C284C /* ZDBaseSectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0590A83E1E5DE696000CB46C /* ZDBaseSectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05AFBF3F1E5F4321000C284C /* ZDBaseTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0590A8401E5DE696000CB46C /* ZDBaseTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05AFBF401E5F4321000C284C /* ZDBindingDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 0590A8431E5DE696000CB46C /* ZDBindingDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05AFBF411E5F4321000C284C /* ZDTableViewBinding.h in Headers */ = {isa = PBXBuildFile; fileRef = 0590A8441E5DE696000CB46C /* ZDTableViewBinding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05AFBF421E5F4321000C284C /* ZDCellProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 0590A8471E5DE696000CB46C /* ZDCellProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05AFBF431E5F4321000C284C /* ZDCellViewModelProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 0590A8481E5DE696000CB46C /* ZDCellViewModelProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05AFBF441E5F4321000C284C /* ZDSectionProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 0590A8491E5DE696000CB46C /* ZDSectionProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05AFBF451E5F4321000C284C /* ZDSectionViewModelProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 0590A84A1E5DE696000CB46C /* ZDSectionViewModelProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05AFBF461E5F4321000C284C /* ZDCellViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0590A84C1E5DE696000CB46C /* ZDCellViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05AFBF471E5F4321000C284C /* ZDSectionViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0590A84E1E5DE696000CB46C /* ZDSectionViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05AFBF481E5F4368000C284C /* UITableView+FDIndexPathHeightCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 05AFBF2F1E5F42F3000C284C /* UITableView+FDIndexPathHeightCache.m */; };
+		05AFBF491E5F4368000C284C /* UITableView+FDKeyedHeightCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 05AFBF311E5F42F3000C284C /* UITableView+FDKeyedHeightCache.m */; };
+		05AFBF4A1E5F4368000C284C /* UITableView+FDTemplateLayoutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 05AFBF331E5F42F3000C284C /* UITableView+FDTemplateLayoutCell.m */; };
+		05AFBF4B1E5F4368000C284C /* UITableView+FDTemplateLayoutCellDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 05AFBF351E5F42F3000C284C /* UITableView+FDTemplateLayoutCellDebug.m */; };
+		05AFBF4C1E5F4368000C284C /* ZDBaseSectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0590A83F1E5DE696000CB46C /* ZDBaseSectionView.m */; };
+		05AFBF4D1E5F4368000C284C /* ZDBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0590A8411E5DE696000CB46C /* ZDBaseTableViewCell.m */; };
+		05AFBF4E1E5F4368000C284C /* ZDTableViewBinding.m in Sources */ = {isa = PBXBuildFile; fileRef = 0590A8451E5DE696000CB46C /* ZDTableViewBinding.m */; };
+		05AFBF4F1E5F4368000C284C /* ZDCellViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0590A84D1E5DE696000CB46C /* ZDCellViewModel.m */; };
+		05AFBF501E5F4368000C284C /* ZDSectionViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0590A84F1E5DE696000CB46C /* ZDSectionViewModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +70,42 @@
 			remoteGlobalIDString = 0590A8051E5DDE6A000CB46C;
 			remoteInfo = CarthageTest;
 		};
+		05AFBF191E5F42A3000C284C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0590A7FE1E5DDE6A000CB46C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05AFBF0E1E5F42A2000C284C;
+			remoteInfo = ZDTableViewBindingFramework;
+		};
+		05AFBF1B1E5F42A3000C284C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0590A7FE1E5DDE6A000CB46C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0590A8051E5DDE6A000CB46C;
+			remoteInfo = CarthageTest;
+		};
+		05AFBF221E5F42A3000C284C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0590A7FE1E5DDE6A000CB46C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05AFBF0E1E5F42A2000C284C;
+			remoteInfo = ZDTableViewBindingFramework;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		05AFBF251E5F42A3000C284C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				05AFBF261E5F42A3000C284C /* ZDTableViewBinding.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0590A8061E5DDE6A000CB46C /* CarthageTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarthageTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -73,6 +140,20 @@
 		0590A84E1E5DE696000CB46C /* ZDSectionViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDSectionViewModel.h; sourceTree = "<group>"; };
 		0590A84F1E5DE696000CB46C /* ZDSectionViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDSectionViewModel.m; sourceTree = "<group>"; };
 		0590A8561E5DE983000CB46C /* ReactiveObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveObjC.framework; path = "Carthage/Checkouts/ReactiveObjC/build/Debug-iphoneos/ReactiveObjC.framework"; sourceTree = "<group>"; };
+		05AFBF0F1E5F42A2000C284C /* ZDTableViewBinding.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZDTableViewBinding.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		05AFBF111E5F42A2000C284C /* ZDTableViewBindingFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZDTableViewBindingFramework.h; sourceTree = "<group>"; };
+		05AFBF121E5F42A2000C284C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05AFBF171E5F42A3000C284C /* ZDTableViewBindingFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZDTableViewBindingFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		05AFBF1E1E5F42A3000C284C /* ZDTableViewBindingFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZDTableViewBindingFrameworkTests.m; sourceTree = "<group>"; };
+		05AFBF201E5F42A3000C284C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05AFBF2E1E5F42F3000C284C /* UITableView+FDIndexPathHeightCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+FDIndexPathHeightCache.h"; sourceTree = "<group>"; };
+		05AFBF2F1E5F42F3000C284C /* UITableView+FDIndexPathHeightCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+FDIndexPathHeightCache.m"; sourceTree = "<group>"; };
+		05AFBF301E5F42F3000C284C /* UITableView+FDKeyedHeightCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+FDKeyedHeightCache.h"; sourceTree = "<group>"; };
+		05AFBF311E5F42F3000C284C /* UITableView+FDKeyedHeightCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+FDKeyedHeightCache.m"; sourceTree = "<group>"; };
+		05AFBF321E5F42F3000C284C /* UITableView+FDTemplateLayoutCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+FDTemplateLayoutCell.h"; sourceTree = "<group>"; };
+		05AFBF331E5F42F3000C284C /* UITableView+FDTemplateLayoutCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+FDTemplateLayoutCell.m"; sourceTree = "<group>"; };
+		05AFBF341E5F42F3000C284C /* UITableView+FDTemplateLayoutCellDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+FDTemplateLayoutCellDebug.h"; sourceTree = "<group>"; };
+		05AFBF351E5F42F3000C284C /* UITableView+FDTemplateLayoutCellDebug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+FDTemplateLayoutCellDebug.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0590A8571E5DE983000CB46C /* ReactiveObjC.framework in Frameworks */,
+				05AFBF241E5F42A3000C284C /* ZDTableViewBinding.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,6 +180,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		05AFBF0B1E5F42A2000C284C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05AFBF141E5F42A3000C284C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05AFBF181E5F42A3000C284C /* ZDTableViewBinding.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -108,6 +205,8 @@
 				0590A8081E5DDE6A000CB46C /* CarthageTest */,
 				0590A8221E5DDE6A000CB46C /* CarthageTestTests */,
 				0590A82D1E5DDE6A000CB46C /* CarthageTestUITests */,
+				05AFBF101E5F42A2000C284C /* ZDTableViewBindingFramework */,
+				05AFBF1D1E5F42A3000C284C /* ZDTableViewBindingFrameworkTests */,
 				0590A8071E5DDE6A000CB46C /* Products */,
 				0590A8551E5DE983000CB46C /* Frameworks */,
 			);
@@ -119,6 +218,8 @@
 				0590A8061E5DDE6A000CB46C /* CarthageTest.app */,
 				0590A81F1E5DDE6A000CB46C /* CarthageTestTests.xctest */,
 				0590A82A1E5DDE6A000CB46C /* CarthageTestUITests.xctest */,
+				05AFBF0F1E5F42A2000C284C /* ZDTableViewBinding.framework */,
+				05AFBF171E5F42A3000C284C /* ZDTableViewBindingFrameworkTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -168,6 +269,7 @@
 		0590A83C1E5DE696000CB46C /* ZDTableViewBinding */ = {
 			isa = PBXGroup;
 			children = (
+				05AFBF2D1E5F42F3000C284C /* UITableView+FDTemplateLayoutCell */,
 				0590A83D1E5DE696000CB46C /* ZDBaseViews */,
 				0590A8421E5DE696000CB46C /* ZDBinding */,
 				0590A8461E5DE696000CB46C /* ZDProtocols */,
@@ -227,7 +329,65 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		05AFBF101E5F42A2000C284C /* ZDTableViewBindingFramework */ = {
+			isa = PBXGroup;
+			children = (
+				05AFBF111E5F42A2000C284C /* ZDTableViewBindingFramework.h */,
+				05AFBF121E5F42A2000C284C /* Info.plist */,
+			);
+			path = ZDTableViewBindingFramework;
+			sourceTree = "<group>";
+		};
+		05AFBF1D1E5F42A3000C284C /* ZDTableViewBindingFrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				05AFBF1E1E5F42A3000C284C /* ZDTableViewBindingFrameworkTests.m */,
+				05AFBF201E5F42A3000C284C /* Info.plist */,
+			);
+			path = ZDTableViewBindingFrameworkTests;
+			sourceTree = "<group>";
+		};
+		05AFBF2D1E5F42F3000C284C /* UITableView+FDTemplateLayoutCell */ = {
+			isa = PBXGroup;
+			children = (
+				05AFBF2E1E5F42F3000C284C /* UITableView+FDIndexPathHeightCache.h */,
+				05AFBF2F1E5F42F3000C284C /* UITableView+FDIndexPathHeightCache.m */,
+				05AFBF301E5F42F3000C284C /* UITableView+FDKeyedHeightCache.h */,
+				05AFBF311E5F42F3000C284C /* UITableView+FDKeyedHeightCache.m */,
+				05AFBF321E5F42F3000C284C /* UITableView+FDTemplateLayoutCell.h */,
+				05AFBF331E5F42F3000C284C /* UITableView+FDTemplateLayoutCell.m */,
+				05AFBF341E5F42F3000C284C /* UITableView+FDTemplateLayoutCellDebug.h */,
+				05AFBF351E5F42F3000C284C /* UITableView+FDTemplateLayoutCellDebug.m */,
+			);
+			path = "UITableView+FDTemplateLayoutCell";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		05AFBF0C1E5F42A2000C284C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05AFBF211E5F42A3000C284C /* ZDTableViewBindingFramework.h in Headers */,
+				05AFBF3E1E5F4321000C284C /* ZDBaseSectionView.h in Headers */,
+				05AFBF3F1E5F4321000C284C /* ZDBaseTableViewCell.h in Headers */,
+				05AFBF401E5F4321000C284C /* ZDBindingDefine.h in Headers */,
+				05AFBF411E5F4321000C284C /* ZDTableViewBinding.h in Headers */,
+				05AFBF421E5F4321000C284C /* ZDCellProtocol.h in Headers */,
+				05AFBF431E5F4321000C284C /* ZDCellViewModelProtocol.h in Headers */,
+				05AFBF441E5F4321000C284C /* ZDSectionProtocol.h in Headers */,
+				05AFBF451E5F4321000C284C /* ZDSectionViewModelProtocol.h in Headers */,
+				05AFBF461E5F4321000C284C /* ZDCellViewModel.h in Headers */,
+				05AFBF471E5F4321000C284C /* ZDSectionViewModel.h in Headers */,
+				05AFBF3A1E5F4321000C284C /* UITableView+FDIndexPathHeightCache.h in Headers */,
+				05AFBF3B1E5F4321000C284C /* UITableView+FDKeyedHeightCache.h in Headers */,
+				05AFBF3C1E5F4321000C284C /* UITableView+FDTemplateLayoutCell.h in Headers */,
+				05AFBF3D1E5F4321000C284C /* UITableView+FDTemplateLayoutCellDebug.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		0590A8051E5DDE6A000CB46C /* CarthageTest */ = {
@@ -237,10 +397,12 @@
 				0590A8021E5DDE6A000CB46C /* Sources */,
 				0590A8031E5DDE6A000CB46C /* Frameworks */,
 				0590A8041E5DDE6A000CB46C /* Resources */,
+				05AFBF251E5F42A3000C284C /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				05AFBF231E5F42A3000C284C /* PBXTargetDependency */,
 			);
 			name = CarthageTest;
 			productName = CarthageTest;
@@ -283,6 +445,43 @@
 			productReference = 0590A82A1E5DDE6A000CB46C /* CarthageTestUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		05AFBF0E1E5F42A2000C284C /* ZDTableViewBindingFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05AFBF2B1E5F42A3000C284C /* Build configuration list for PBXNativeTarget "ZDTableViewBindingFramework" */;
+			buildPhases = (
+				05AFBF0A1E5F42A2000C284C /* Sources */,
+				05AFBF0B1E5F42A2000C284C /* Frameworks */,
+				05AFBF0C1E5F42A2000C284C /* Headers */,
+				05AFBF0D1E5F42A2000C284C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZDTableViewBindingFramework;
+			productName = ZDTableViewBindingFramework;
+			productReference = 05AFBF0F1E5F42A2000C284C /* ZDTableViewBinding.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		05AFBF161E5F42A3000C284C /* ZDTableViewBindingFrameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05AFBF2C1E5F42A3000C284C /* Build configuration list for PBXNativeTarget "ZDTableViewBindingFrameworkTests" */;
+			buildPhases = (
+				05AFBF131E5F42A3000C284C /* Sources */,
+				05AFBF141E5F42A3000C284C /* Frameworks */,
+				05AFBF151E5F42A3000C284C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05AFBF1A1E5F42A3000C284C /* PBXTargetDependency */,
+				05AFBF1C1E5F42A3000C284C /* PBXTargetDependency */,
+			);
+			name = ZDTableViewBindingFrameworkTests;
+			productName = ZDTableViewBindingFrameworkTests;
+			productReference = 05AFBF171E5F42A3000C284C /* ZDTableViewBindingFrameworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -306,6 +505,15 @@
 						ProvisioningStyle = Automatic;
 						TestTargetID = 0590A8051E5DDE6A000CB46C;
 					};
+					05AFBF0E1E5F42A2000C284C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					05AFBF161E5F42A3000C284C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0590A8051E5DDE6A000CB46C;
+					};
 				};
 			};
 			buildConfigurationList = 0590A8011E5DDE6A000CB46C /* Build configuration list for PBXProject "CarthageTest" */;
@@ -324,6 +532,8 @@
 				0590A8051E5DDE6A000CB46C /* CarthageTest */,
 				0590A81E1E5DDE6A000CB46C /* CarthageTestTests */,
 				0590A8291E5DDE6A000CB46C /* CarthageTestUITests */,
+				05AFBF0E1E5F42A2000C284C /* ZDTableViewBindingFramework */,
+				05AFBF161E5F42A3000C284C /* ZDTableViewBindingFrameworkTests */,
 			);
 		};
 /* End PBXProject section */
@@ -353,6 +563,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		05AFBF0D1E5F42A2000C284C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05AFBF151E5F42A3000C284C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -360,10 +584,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05AFBF361E5F42F3000C284C /* UITableView+FDIndexPathHeightCache.m in Sources */,
 				0590A8511E5DE696000CB46C /* ZDBaseTableViewCell.m in Sources */,
 				0590A8521E5DE696000CB46C /* ZDTableViewBinding.m in Sources */,
 				0590A8111E5DDE6A000CB46C /* ViewController.m in Sources */,
+				05AFBF371E5F42F3000C284C /* UITableView+FDKeyedHeightCache.m in Sources */,
+				05AFBF391E5F42F3000C284C /* UITableView+FDTemplateLayoutCellDebug.m in Sources */,
 				0590A80E1E5DDE6A000CB46C /* AppDelegate.m in Sources */,
+				05AFBF381E5F42F3000C284C /* UITableView+FDTemplateLayoutCell.m in Sources */,
 				0590A80B1E5DDE6A000CB46C /* main.m in Sources */,
 				0590A8501E5DE696000CB46C /* ZDBaseSectionView.m in Sources */,
 				0590A8541E5DE696000CB46C /* ZDSectionViewModel.m in Sources */,
@@ -387,6 +615,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		05AFBF0A1E5F42A2000C284C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05AFBF481E5F4368000C284C /* UITableView+FDIndexPathHeightCache.m in Sources */,
+				05AFBF491E5F4368000C284C /* UITableView+FDKeyedHeightCache.m in Sources */,
+				05AFBF4A1E5F4368000C284C /* UITableView+FDTemplateLayoutCell.m in Sources */,
+				05AFBF4B1E5F4368000C284C /* UITableView+FDTemplateLayoutCellDebug.m in Sources */,
+				05AFBF4C1E5F4368000C284C /* ZDBaseSectionView.m in Sources */,
+				05AFBF4D1E5F4368000C284C /* ZDBaseTableViewCell.m in Sources */,
+				05AFBF4E1E5F4368000C284C /* ZDTableViewBinding.m in Sources */,
+				05AFBF4F1E5F4368000C284C /* ZDCellViewModel.m in Sources */,
+				05AFBF501E5F4368000C284C /* ZDSectionViewModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05AFBF131E5F42A3000C284C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05AFBF1F1E5F42A3000C284C /* ZDTableViewBindingFrameworkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -399,6 +651,21 @@
 			isa = PBXTargetDependency;
 			target = 0590A8051E5DDE6A000CB46C /* CarthageTest */;
 			targetProxy = 0590A82B1E5DDE6A000CB46C /* PBXContainerItemProxy */;
+		};
+		05AFBF1A1E5F42A3000C284C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05AFBF0E1E5F42A2000C284C /* ZDTableViewBindingFramework */;
+			targetProxy = 05AFBF191E5F42A3000C284C /* PBXContainerItemProxy */;
+		};
+		05AFBF1C1E5F42A3000C284C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0590A8051E5DDE6A000CB46C /* CarthageTest */;
+			targetProxy = 05AFBF1B1E5F42A3000C284C /* PBXContainerItemProxy */;
+		};
+		05AFBF231E5F42A3000C284C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05AFBF0E1E5F42A2000C284C /* ZDTableViewBindingFramework */;
+			targetProxy = 05AFBF221E5F42A3000C284C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -582,6 +849,70 @@
 			};
 			name = Release;
 		};
+		05AFBF271E5F42A3000C284C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ZDTableViewBindingFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Zero.ZDTableViewBindingFramework;
+				PRODUCT_MODULE_NAME = ZDTableViewBinding;
+				PRODUCT_NAME = ZDTableViewBinding;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		05AFBF281E5F42A3000C284C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ZDTableViewBindingFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Zero.ZDTableViewBindingFramework;
+				PRODUCT_MODULE_NAME = ZDTableViewBinding;
+				PRODUCT_NAME = ZDTableViewBinding;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		05AFBF291E5F42A3000C284C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZDTableViewBindingFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Zero.ZDTableViewBindingFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarthageTest.app/CarthageTest";
+			};
+			name = Debug;
+		};
+		05AFBF2A1E5F42A3000C284C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZDTableViewBindingFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Zero.ZDTableViewBindingFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarthageTest.app/CarthageTest";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -620,6 +951,22 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		05AFBF2B1E5F42A3000C284C /* Build configuration list for PBXNativeTarget "ZDTableViewBindingFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05AFBF271E5F42A3000C284C /* Debug */,
+				05AFBF281E5F42A3000C284C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		05AFBF2C1E5F42A3000C284C /* Build configuration list for PBXNativeTarget "ZDTableViewBindingFrameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05AFBF291E5F42A3000C284C /* Debug */,
+				05AFBF2A1E5F42A3000C284C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
